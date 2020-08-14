@@ -137,7 +137,7 @@ header.special {
     margin-right: auto; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.5;
   text-transform: uppercase;
   margin: 0 0 1.5rem 0; }
@@ -631,6 +631,29 @@ ul.alt li {
       border-radius: 50%;
   }
   
+.vertical-menu {
+  width: 100%;
+  box-shadow: 2px;
+}
+
+.vertical-menu a {
+  background-color: #fff;
+  color: black;
+  margin-top: 2px;
+  border-radius:2px;
+  display: block;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
   
 
 /* Table */
